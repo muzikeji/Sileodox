@@ -1,0 +1,96 @@
+{
+"class": "DepictionTabView",
+"headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
+"tintColor": "#FF4455",
+"minVersion": "0.3",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "描述",
+"views": [
+{
+"class": "DepictionMarkdownView",
+"markdown": "<b>插件基本来源网络，安全性自行评估</b></br> 关于兼容层（oldabi）若插件有问题，多巴胺环境禁止插件注入，卸载 xina2则安全模式，卸载。若某插件不生效请单独开启仅允许看看是否能生效(会不会有冲突的可能)，再说个重点(xina2-rootless串联)会增加某个别应用场景越狱被检测的概率，除非必要喜欢，否则不用对应的插件，若屏蔽无效，直接卸载它和对应插件，没有屏蔽的需求，则过滤这条消息。</br> 不想和任何人有纠纷，请给越狱圈一片明朗的天空，用不上就不用，非强制，莫做背后道人长短的xx，理智玩机。",
+"useRawFormat": true
+},
+{
+"class": "DepictionScreenshotsView",
+"itemCornerRadius": 6,
+"itemSize": "{160, 346.4533333333333}",
+"screenshots": [
+{
+"accessibilityText": "Screenshot",
+"url": "https://invalidunit.github.io/sileodepiction/Default/Screenshot_01.png"
+},
+{
+"accessibilityText": "Screenshot",
+"url": "https://invalidunit.github.io/sileodepiction/Default/Screenshot_02.png"
+}
+]
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 16
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 16
+},
+{
+"class": "DepictionHeaderView",
+"title": "详情",
+"useBoldText": true,
+"useBottomMargin": false
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 8
+},
+{
+"class": "DepictionTableTextView",
+"text": "Muzi.Lee",
+"title": "作者"
+},
+{
+"class": "DepictionTableTextView",
+"text": "0.1.0",
+"title": "最新版本"
+},
+{
+"class": "DepictionTableTextView",
+"text": "14.0 - 17.0",
+"title": "理论支持系统范围"
+},
+{
+"class": "DepictionTableTextView",
+"text": "2024 年 02 月 20 日",
+"title": "最后更新日期"
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 16
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "更新日志",
+"views": [
+{
+"class": "DepictionSubheaderView",
+"title": "0.1.0",
+"useBoldText": true,
+"useBottomMargin": false
+},
+{
+"class": "DepictionMarkdownView",
+"markdown": "初始版本",
+"useRawFormat": true
+}
+]
+}
+],
+}
