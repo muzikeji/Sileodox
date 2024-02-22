@@ -20,11 +20,11 @@
 					"screenshots": [
 						{
 							"accessibilityText": "Screenshot",
-							"url": "https://muzikeji.github.io/Sileodox/images/compressed0.jpeg"
+							"url": "https://muzikeji.github.io/Sileodox/images/compressed1.jpeg"
 						},
 						{
 							"accessibilityText": "Screenshot",
-							"url": "https://muzikeji.github.io/Sileodox/images/compressed1.jpeg"
+							"url": "https://muzikeji.github.io/Sileodox/images/compressed0.jpeg"
 						}
 					]
 				},
@@ -61,7 +61,7 @@
 				},
 				{
 					"class": "DepictionTableTextView",
-					"text": "14.0 - 17.4",
+					"text": "14.0 - 16.5.1",
 					"title": "理论支持系统范围"
 				},
 				{
