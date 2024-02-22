@@ -72,6 +72,11 @@
 				{
 					"class": "DepictionSpacerView",
 					"spacing": 16
+				},
+				{
+					"class": "DepictionButtonView",
+					"text": "加入TG交流群",
+					"action": "https://t.me/iOSlee"
 				}
 			]
 		},
