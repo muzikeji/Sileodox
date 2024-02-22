@@ -4,7 +4,7 @@
 	"headerImage": "https://pbs.twimg.com/profile_banners/1019260900950364160/1545686584/1500x500",
 	"tabs": [{
 			"class": "DepictionStackView",
-			"tabname": "Details",
+			"tabname": "描述",
 			"views": [{
 					"class": "DepictionMarkdownView",
 					"markdown": "使用适用于iOS 12及更高版本的适当包装管理器，充分发挥设备的潜力！ \n\nSileo是一个iOS的包管理器，允许用户在越狱的iOS设备上找到并安装包。 Sileo基于APT，移植到iOS。",
@@ -81,7 +81,7 @@
 		},
 		{
 			"class": "DepictionStackView",
-			"tabname": "Changelog",
+			"tabname": "更新日志",
 			"views": [
 				{
 					"class": "DepictionSubheaderView",
