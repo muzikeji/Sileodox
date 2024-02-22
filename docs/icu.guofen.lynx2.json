@@ -1,0 +1,101 @@
+{
+	"class": "DepictionTabView",
+	"headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
+	"tintColor": "#FF4455",
+	"minVersion": "0.3",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "描述",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": " Lynx2 为整个i0S 系统提供了众多的调整,整个Lynx2用户配置界面选项上感觉穷尽 ios系统方方面面,为iOs提 供了的终极设备自定义。<br/> 支持iOS 14, 15 & 16",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 6,
+					"itemSize": "{160, 346.4533333333333}",
+					"screenshots": [
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://muzikeji.github.io/Sileodox/images/compressed0.jpeg"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://muzikeji.github.io/Sileodox/images/compressed1.jpeg"
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "详情",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 8
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Muzi.Lee",
+					"title": "作者"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "2.4.8",
+					"title": "最新版本"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "14.0 - 17.4",
+					"title": "理论支持系统范围"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "2024 年 02 月 22 日",
+					"title": "最后更新日期"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionButtonView",
+					"text": "加入TG交流群",
+					"action": "https://t.me/iOSlee"
+				}
+			]
+		},
+		{
+			"class": "DepictionStackView",
+			"tabname": "更新日志",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "2.4.8",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "初始版本",
+					"useRawFormat": true
+				}
+			]
+		}
+	]
+}
