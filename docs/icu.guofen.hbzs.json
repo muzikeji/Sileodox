@@ -1,0 +1,101 @@
+{
+	"class": "DepictionTabView",
+	"headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
+	"tintColor": "#FF4455",
+	"minVersion": "0.3",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "描述",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "黄白助手-微信插件  <br>                                                                                                                                                               一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 6,
+					"itemSize": "{160, 346.4533333333333}",
+					"screenshots": [
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://invalidunit.github.io/sileodepiction/Default/Screenshot_01.png"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://invalidunit.github.io/sileodepiction/Default/Screenshot_02.png"
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "详情",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 8
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Muzi.Lee",
+					"title": "作者"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "1.6.9",
+					"title": "最新版本"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "11.0 - 17.4",
+					"title": "理论支持系统范围"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "2024 年 02 月 22 日",
+					"title": "最后更新日期"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionButtonView",
+					"text": "加入TG交流群",
+					"action": "https://t.me/iOSlee"
+				}
+			]
+		},
+		{
+			"class": "DepictionStackView",
+			"tabname": "更新日志",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "1.6.9",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "初始版本",
+					"useRawFormat": true
+				}
+			]
+		}
+	]
+}
