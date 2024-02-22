@@ -1,0 +1,101 @@
+{
+	"class": "DepictionTabView",
+	"headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
+	"tintColor": "#FF4455",
+	"minVersion": "0.3",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "描述",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "适用于iOS的仿tvOS的弹窗提醒。（由M哥汉化）",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 6,
+					"itemSize": "{160, 346.4533333333333}",
+					"screenshots": [
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://muzikeji.github.io/Sileodox/images/tvos1.jpeg"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://muzikeji.github.io/Sileodox/images/tvos2.jpeg"
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "详情",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 8
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Muzi.Lee",
+					"title": "作者"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "1.4",
+					"title": "最新版本"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "14.0 - 17.4",
+					"title": "理论支持系统范围"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "2024 年 02 月 22 日",
+					"title": "最后更新日期"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionButtonView",
+					"text": "加入TG交流群",
+					"action": "https://t.me/iOSlee"
+				}
+			]
+		},
+		{
+			"class": "DepictionStackView",
+			"tabname": "更新日志",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "1.4",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "初始版本",
+					"useRawFormat": true
+				}
+			]
+		}
+	]
+}
