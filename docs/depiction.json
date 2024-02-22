@@ -1,0 +1,177 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.3",
+	"headerImage": "https://pbs.twimg.com/profile_banners/1019260900950364160/1545686584/1500x500",
+	"tabs": [{
+			"class": "DepictionStackView",
+			"tabname": "Details",
+			"views": [{
+					"class": "DepictionMarkdownView",
+					"markdown": "使用适用于iOS 12及更高版本的适当包装管理器，充分发挥设备的潜力！ \n\nSileo是一个iOS的包管理器，允许用户在越狱的iOS设备上找到并安装包。 Sileo基于APT，移植到iOS。",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionImageView",
+					"URL": "https://getsileo.app/img/comp.png",
+					"width": 539,
+					"height": 360,
+					"horizontalPadding": 30,
+					"cornerRadius": 0,
+					"alignment": 1
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "####Native and Modern\n\nSileo已从头开始设计和构建，可与iOS 12+上的所有设备正常工作。 它具有强调原生UI元素的现代用户界面，在支持的repos上具有完全原生的包描述！ 它也允许存储库通过Touch/Face ID保护的付款无缝和原生地处理付款。\n\nSileo使用最新版本的DPKG和APT，以确保用户通过适用于两者的最新优化和稳定性修复获得最佳体验。 DPKG和APT都有最小的补丁，以确保它们可以继续更新，同时仍然与大多数现有的iOS存储库兼容。",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 12.8,
+					"itemSize": "{160, 346}",
+					"screenshots": [{
+							"accessibilityText": "Screenshot",
+							"url": "https://featuredpage.getsileo.app/depictionassets/org.coolstar.sileo-screen1.png"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://featuredpage.getsileo.app/depictionassets/org.coolstar.sileo-screen2.png"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://featuredpage.getsileo.app/depictionassets/org.coolstar.sileo-screen3.png"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://featuredpage.getsileo.app/depictionassets/org.coolstar.sileo-screen4.png"
+						}
+					]
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "####Fast\n\nSileo从头开始设计，可以快速高效地运行。 存储库加载速度更快，而不会阻止UI重新加载数据。 许多不经常使用的APT功能尚未被带到Silieo以保持其精益和快速。\n\n####集成\n\n由于Silieo是考虑到最新的DPKG和APT而构建的，它们都已更新，以确保它们以尽可能高效的方式协同工作。 已经付出了巨大的努力来确保从应用程序启动到包装安装的整个过程得到简化，尽可能不重复任何流程，以确保更好、更快、更稳定的整体体验。\n\n####免费\n\nSileo免费适用于iOS 12及以上的所有设备",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionImageView",
+					"URL": "https://getsileo.app/img/iphone.png",
+					"width": 834,
+					"height": 176,
+					"horizontalPadding": 30,
+					"cornerRadius": 0,
+					"alignment": 1
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "Information"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 3, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				}
+			]
+		},
+		{
+			"class": "DepictionStackView",
+			"tabname": "Changelog",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "2.5",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- 添加多巴胺、palera1n和Cookie图标\n-添加选择加入罐分析，用户首次启动时将看到提示\n-添加对iOS 17越狱的支持",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "2.4",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- 正确支持无根\n-改进的罐子支持，现在使用API v2\n-搜索历史记录现在显示\n-自定义主题创建\n-解压缩速度加快\n-修复从deb安装包\n-整体速度加快",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "2.2.1",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Fix bug with DPKG locking\n- Fix bug with cannot find档案\n-通过这个开发人员按钮修复更多\n-修复从deb安装调整的错误",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "2.2",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- A redesigned包安装页面旨在向您展示正在发生的事情\n-取消下载的新按钮，以便您可以更改或从队列中删除项目\n-精选页面上的iCloud个人资料图片回来了\n-包描述中的新按钮，用于转到该回购协议\n-添加了用于为BigBoss和Procursus添加带有特殊处理程序的dist repos的警报。 添加https://bigboss.org/将为您正确添加BigBoss\n-在特色页面上对Canister的支持\n-改进的触控板支持和源页面对CMD R和CMD +的支持\n-当您按下respring时，Sileo内部的语言的能力会褪色并动画化\n-将添加到愿望清单的功能\n-在已安装 Coolstar越狱用户应继续使用Procursus下载Sileo，其他越狱可以使用回购协议https://repo.getsileo.app/感谢@tale#1111对此的帮助！ 如果您使用的是unc0ver或checkra1n，Silieo将与Cydia分享其来源。\n- Sileo的许多核心组件已被重写，为您提供更流畅的体验。 这包括更快的回购刷新、更快的队列加载时间以及没有UI故障。 Sileo现在将使用更少的内存。 这得益于增加缓存和使用更快的库进行解压缩和支持使用.zst.zst.\n-已安装的包计数现在是正确的\n-减少涉及Canister\n-修复源视图页面打开空白视图\n-修复下载/图像缓存上的垃圾收集\n-在添加一个时不要刷新每个repo\n-修复版本有时未知\n-修复 注意，这将需要重置您的数据库\n-删除看起来不好的图像边框\n-删除了3D识别器到包按钮，只需按住修改按钮即可降级\n-共享包现在更有用\n- Sileo现在将安装来自引导式存储库的包的建议\n-修复刷新回购协议时设备存储完全错误\n-修复下载错误和重",
+					"useSpacing": true
+				},
+				 {
+					"class": "DepictionSubheaderView",
+					"title": "2.1",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- 滑动调整操作，用于安装、升级、卸载、添加回购协议\n-罐式实现，用于搜索您没有的回购协议的调整。 您可以添加Repo并让您的包裹排队\n-滑动操作和队列按钮\n-替代图标\n-刷新源不再清除队列\n-一次添加多个源的速度大大加快\n-将忽略的升级转移到自己的部分，并带有完全隐藏它们的选项\n-搜索包标识符、名称、作者、维护者和描述\n-按字母顺序排序不",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "2.0.1",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- 修复快速进出新\n时的崩溃\n-修复粗体文本崩溃\n-修复付款崩溃\n-取消生物识别\n-修复iPad上的颜色选择器演示\n-删除用户过滤，现在每个人都是开发人员\n-修复不匹配的主题崩溃\n-修复iPad上的注销崩溃\n-应该修复弹簧按钮缓慢\n- Sileo",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "2.0.0b6",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "修复下载付费套餐的问题。",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "2.0.0b5",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1. 新的选项卡在Swift中重写，因此运行速度更快\n2。 在添加盗版回购时重新添加盗版警告（但不会阻止它们）\n3。 添加了一个新的主题系统，具有自定义色调\n4。 修复中国设备上的网络访问\n5。 为描述添加DepictionLayerView类\n6。 为描述扩展DepictionButtonView类",
+					"useSpacing": true
+				}
+			]
+		}
+	]
+}
