@@ -1,0 +1,101 @@
+{
+	"class": "DepictionTabView",
+	"headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
+	"tintColor": "#FF4455",
+	"minVersion": "0.3",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "描述",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": " 一个超强的设置自动归类插件，让你的设置整整齐齐，插件、系统、App各有各的目录",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 6,
+					"itemSize": "{160, 346.4533333333333}",
+					"screenshots": [
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://raw.githubusercontent.com/muzikeji/Sileodox/main/images/BDE35071-2127-429E-A59A-93FD13CEA872_L0_001_origin.IMG_1363.JPG"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://raw.githubusercontent.com/muzikeji/Sileodox/main/images/0A464D76-432E-434A-B93A-40CE6BDA3E29_L0_001_origin.IMG_1361.JPG"
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "详情",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 8
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Muzi.Lee",
+					"title": "作者"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "1.6.2",
+					"title": "最新版本"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "14.0 - 17.4",
+					"title": "理论支持系统范围"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "2024 年 02 月 23 日",
+					"title": "最后更新日期"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionButtonView",
+					"text": "加入TG交流群",
+					"action": "https://t.me/iOSlee"
+				}
+			]
+		},
+		{
+			"class": "DepictionStackView",
+			"tabname": "更新日志",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "1.6.2",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "初始版本",
+					"useRawFormat": true
+				}
+			]
+		}
+	]
+}
