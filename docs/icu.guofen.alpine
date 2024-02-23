@@ -1,7 +1,7 @@
 {
 	"class": "DepictionTabView",
 	"headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
-	"tintColor": "#EE82EE",
+	"tintColor": "#6A6ACD",
 	"minVersion": "0.3",
 	"tabs": [
 		{
