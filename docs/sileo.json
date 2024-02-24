@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "在设备低电量时禁用 dasd 来提升续航</br> 守护进程将会每 10 分钟检查一次电量</br> 默认低于 20% 时关闭 dasd，可手动修改配置文件</br> jbroot/var/mobile/Library/Preferences/com.nan.ddolb.conf",
+                    "markdown": "在设备降低你的动态岛，如果你不需要它，就让它消失。仅支持iOS16系统，配合DynamicCow开启灵动岛，对灵动岛进行调整，如透明度或者位置，大家自行体验，灵动半岛估计不行，自行测试！所有原始代码都来自 KhanhDuyTran (@TranKha50277352)",
                     "useRawFormat": true
                 },
                 {
@@ -20,7 +20,7 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://invalidunit.github.io/sileodepiction/Default/Screenshot_01.png"
+                            "url": "https://muzikeji.github.io/Sileodox/images/mineland.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
@@ -51,12 +51,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "zhaonan",
-                    "title": "作者"
+                    "text": "Muzilee",
+                    "title": "推荐人"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1.0",
+                    "text": "2.0-6debug",
                     "title": "最新版本"
                 },
                 {
@@ -66,7 +66,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 02 月 20 日",
+                    "text": "2024 年 02 月 24 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -81,7 +81,7 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "0.1.0",
+                    "title": "2.0.6",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
