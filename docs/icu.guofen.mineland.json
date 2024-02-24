@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "降低你的动态岛，如果你不需要它，就让它消失。仅支持iOS16系统，配合DynamicCow开启灵动岛，对灵动岛进行调整，如透明度或者位置，大家自行体验，灵动半岛估计不行，自行测试！所有原始代码都来自 KhanhDuyTran (@TranKha50277352)",
+                    "markdown": "降低你的动态岛，如果你不需要它，就让它消失。<br>仅支持iOS16系统，配合DynamicCow开启灵动岛，对灵动岛进行调整，如透明度或者位置，大家自行体验，灵动半岛估计不行，自行测试！所有原始代码都来自 KhanhDuyTran (@TranKha50277352)<br>软件下载地址:https://www.123pan.com/s/MbBDVv-Yqi0h.html",
                     "useRawFormat": true
                 },
                 {
