@@ -10,8 +10,8 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "在设备Eneko是一款动态视频壁纸插件，让视频直接当做壁 纸，支持锁屏、主屏、控制中心，选择你喜欢的视频当 做壁纸吧，iPhone 更加有趣。",
-                    "useRawFormat": true
+                    "markdown": "Eneko是一款动态视频壁纸插件，让视频直接当做壁 纸，支持锁屏、主屏、控制中心，选择你喜欢的视频当 做壁纸吧，iPhone 更加有趣。"   
+,                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -23,7 +23,7 @@
                             "url": "https://invalidunit.github.io/sileodepiction/Default/Screenshot_01.png"
                         },
                         {
-                            "accessibilityText": "Screenshot",
+                            "accessibilityText":  "Screenshot",
                             "url": "https://invalidunit.github.io/sileodepiction/Default/Screenshot_02.png"
                         }
                     ]
