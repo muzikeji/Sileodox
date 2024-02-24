@@ -1,12 +1,12 @@
 {
 	"class": "DepictionTabView",
 	"headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
-	"tintColor": "#EE82EE",
+	"tintColor": "#9370DB",
 	"minVersion": "0.3",
 	"tabs": [
 		{
 			"class": "DepictionStackView",
-			"tabname": "🌻",
+			"tabname": "☀️太想当空照，🌻花儿对我笑！",
 			"views": [
 				{
 					"class": "DepictionTableButtonView",
@@ -81,12 +81,14 @@
 				{
 					"class": "DepictionButtonView",
 					"text": "各种流量卡全国包邮，月租低至9元！",
-					"action": "https://lc.189sd.cn/index?k=NVRlSXRCQ29Eams9"
+					"action": "https://lc.189sd.cn/index?k=NVRlSXRCQ29Eams9",
+					"tintColor":"#87CEFA"
 				},
 				{
 					"class": "DepictionButtonView",
 					"text": "加入TG交流群",
-					"action": "https://t.me/iOSlee"
+					"action": "https://t.me/iOSlee",
+					"tintColor":"#6495ED"
 				}
 			]
 		}
