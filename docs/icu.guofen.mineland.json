@@ -3,88 +3,92 @@
 	"headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
 	"tintColor": "#EE82EE",
 	"minVersion": "0.3",
-	"class" : "DepictionStackView",
-	"tabname": "描述",
-	"views": [
+	"tabs": [
 		{
-			"class": "DepictionTableButtonView",
-			"title": "下载DynamicCow软件",
-			"action": "https://www.123pan.com/s/MbBDVv-Yqi0h.html"
-		},
-		{
-			"class": "DepictionMarkdownView",
-			"markdown": " 降低你的动态岛，如果你不需要它，就让它消失。<br>仅支持iOS16系统，配合DynamicCow开启灵动岛，对灵动岛进行调整，如透明度或者位置，大家自行体验，灵动半岛估计不行，自行测试！所有原始代码都来自 KhanhDuyTran (@TranKha50277352)",
-			"useRawFormat": true
-		},
-		{
-			"class": "DepictionScreenshotsView",
-			"itemCornerRadius": 6,
-			"itemSize": "{160, 346.4533333333333}",
-			"screenshots": [
+			"class": "DepictionStackView",
+			"tabname": "🌻",
+			"views": [
 				{
-					"accessibilityText": "Screenshot",
-					"url": "https://muzikeji.github.io/Sileodox/images/mineland1.png"
+					"class": "DepictionTableButtonView",
+					"title": "下载DynamicCow软件",
+					"action": "https://www.123pan.com/s/MbBDVv-Yqi0h.html"
 				},
 				{
-					"accessibilityText": "Screenshot",
-					"url": "https://muzikeji.github.io/Sileodox/images/mineland2.png"
+					"class": "DepictionMarkdownView",
+					"markdown": " 降低你的动态岛，如果你不需要它，就让它消失。<br>仅支持iOS16系统，配合DynamicCow开启灵动岛，对灵动岛进行调整，如透明度或者位置，大家自行体验，灵动半岛估计不行，自行测试！所有原始代码都来自 KhanhDuyTran (@TranKha50277352)",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 6,
+					"itemSize": "{160, 346.4533333333333}",
+					"screenshots": [
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://muzikeji.github.io/Sileodox/images/mineland1.png"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://muzikeji.github.io/Sileodox/images/mineland2.png"
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "详情",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 8
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Muzi.Lee",
+					"title": "推荐人"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "2.0.6debug",
+					"title": "最新版本"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "16.0+",
+					"title": "理论支持系统范围"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "2024 年 02 月 24 日",
+					"title": "最后更新日期"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionButtonView",
+					"text": "各种流量卡全国包邮，月租低至9元！",
+					"action": "https://lc.189sd.cn/index?k=NVRlSXRCQ29Eams9"
+				},
+				{
+					"class": "DepictionButtonView",
+					"text": "加入TG交流群",
+					"action": "https://t.me/iOSlee"
 				}
 			]
-		},
-		{
-			"class": "DepictionSpacerView",
-			"spacing": 16
-		},
-		{
-			"class": "DepictionSeparatorView"
-		},
-		{
-			"class": "DepictionSpacerView",
-			"spacing": 16
-		},
-		{
-			"class": "DepictionHeaderView",
-			"title": "详情",
-			"useBoldText": true,
-			"useBottomMargin": false
-		},
-		{
-			"class": "DepictionSpacerView",
-			"spacing": 8
-		},
-		{
-			"class": "DepictionTableTextView",
-			"text": "Muzi.Lee",
-			"title": "推荐人"
-		},
-		{
-			"class": "DepictionTableTextView",
-			"text": "2.0.6debug",
-			"title": "最新版本"
-		},
-		{
-			"class": "DepictionTableTextView",
-			"text": "16.0+",
-			"title": "理论支持系统范围"
-		},
-		{
-			"class": "DepictionTableTextView",
-			"text": "2024 年 02 月 24 日",
-			"title": "最后更新日期"
-		},
-		{
-			"class": "DepictionSpacerView",
-			"spacing": 16
-		},
-		{
-			"class": "DepictionButtonView",
-			"text": "各种流量卡全国包邮，月租低至9元！",
-			"action": "https://lc.189sd.cn/index?k=NVRlSXRCQ29Eams9"
-		},
-		{
-			"class": "DepictionButtonView",
-			"text": "加入TG交流群",
-			"action": "https://t.me/iOSlee"
 		}
 	]
 }
