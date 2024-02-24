@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "一个快捷将App放入指定文件夹的插件，长按选择目录即可放入。",
+                    "markdown": "降低你的动态岛，如果你不需要它，就让它消失。仅支持iOS16系统，配合DynamicCow开启灵动岛，对灵动岛进行调整，如透明度或者位置，大家自行体验，灵动半岛估计不行，自行测试！所有原始代码都来自 KhanhDuyTran (@TranKha50277352)",
                     "useRawFormat": true
                 },
                 {
@@ -61,7 +61,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "14.0 - 17.0",
+                    "text": "16.0+",
                     "title": "理论支持系统范围"
                 },
                 {
@@ -81,7 +81,7 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.4",
+                    "title": "2.0.6",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
