@@ -78,7 +78,8 @@
 					"class": "DepictionTableTextView",
 					"text": "2024 年 02 月 26 日",
 					"title": "最后更新日期"
-				},
+				},{"class":"DepictionAutoStackView",
+				"views":[
 				{
 					"class": "DepictionSpacerView",
 					"spacing": 16
@@ -94,7 +95,7 @@
 					"text": "加入TG交流群",
 					"action": "https://t.me/iOSlee",
 					"tintColor":"#6495ED"
-				}
+				}]}
 			]
 		}
 	]
