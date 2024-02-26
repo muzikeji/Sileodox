@@ -12,6 +12,11 @@
 					"class": "DepictionTableButtonView",
 					"title": "巨魔版下载",
 					"action": "https://www.ilanzou.com/s/UrIIa8S"
+				},				{
+					"class": "DepictionHeaderView",
+					"title": "插件简介:",
+					"useBoldText": true,
+					"useBottomMargin": false
 				},
 				{
 					"class": "DepictionMarkdownView",
