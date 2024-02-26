@@ -78,12 +78,13 @@
 					"class": "DepictionTableTextView",
 					"text": "2024 年 02 月 26 日",
 					"title": "最后更新日期"
-				},{"class":"DepictionAutoStackView",
-				"views":[
+				},
 				{
 					"class": "DepictionSpacerView",
 					"spacing": 16
-				},
+				},{"class":"DepictionAutoStackView",
+				"horizontalSpacing":"16",
+				"views":[
 				{
 					"class": "DepictionButtonView",
 					"text": "各种流量卡全国包邮，月租低至9元！",
