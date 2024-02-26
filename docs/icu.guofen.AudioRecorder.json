@@ -12,7 +12,18 @@
 					"class": "DepictionTableButtonView",
 					"title": "巨魔版下载",
 					"action": "https://www.ilanzou.com/s/UrIIa8S"
-				},				{
+				},			
+				{
+				  "class": "DepictionSpacerView",
+				  "spacing": 16
+				},
+				{
+				  "class": "DepictionSeparatorView"
+				},
+				{
+				  "class": "DepictionSpacerView",
+				  "spacing": 16
+				},	{
 					"class": "DepictionHeaderView",
 					"title": "插件简介:",
 					"useBoldText": true,
@@ -83,18 +94,15 @@
 					"class": "DepictionSpacerView",
 					"spacing": 16
 				},{"class":"DepictionButtonView",
-				"horizontalSpacing":"16",
-				"views":[
-				{
 					"text": "各种流量卡全国包邮，月租低至9元！",
 					"action": "https://lc.189sd.cn/index?k=NVRlSXRCQ29Eams9",
 					"tintColor":"#F4A460"
 				},
-				{
+				{"class":"DepictionButtonView",
 					"text": "加入TG交流群",
 					"action": "https://t.me/iOSlee",
 					"tintColor":"#6495ED"
-				}]}
+				}
 			]
 		}
 	]
