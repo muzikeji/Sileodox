@@ -2,7 +2,7 @@
 	"class": "DepictionTabView",
 	"headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
 	"tintColor": "#9370DB",
-	"minVersion": "0.3",
+	"minVersion": "0.4",
 	"tabs": [
 		{
 			"class": "DepictionStackView",
