@@ -14,15 +14,7 @@
 					"action": "https://www.ilanzou.com/s/UrIIa8S"
 				},			
 				{
-				  "class": "DepictionSpacerView",
-				  "spacing": 16
-				},
-				{
 				  "class": "DepictionSeparatorView"
-				},
-				{
-				  "class": "DepictionSpacerView",
-				  "spacing": 16
 				},	{
 					"class": "DepictionHeaderView",
 					"title": "插件简介:",
