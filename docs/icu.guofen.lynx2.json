@@ -79,17 +79,21 @@
 				},
 				{
 					"class": "DepictionTableTextView",
-					"text": "2024 年 02 月 22 日",
+					"text": "2024 年 02 月 27 日",
 					"title": "最后更新日期"
 				},
-				{
+			{
 					"class": "DepictionSpacerView",
 					"spacing": 16
+				},{"class":"DepictionButtonView",
+					"text": "各种流量卡全国包邮，月租低至9元！",
+					"action": "https://lc.189sd.cn/index?k=NVRlSXRCQ29Eams9",
+					"tintColor":"#F4A460"
 				},
-				{
-					"class": "DepictionButtonView",
+				{"class":"DepictionButtonView",
 					"text": "加入TG交流群",
-					"action": "https://t.me/iOSlee"
+					"action": "https://t.me/iOSlee",
+					"tintColor":"#6495ED"
 				}
 			]
 		}
