@@ -5,9 +5,22 @@
 	"minVersion": "0.3",
 	"tabs": [
 		{
-			"class": "DepictionStackView",
-			"tabname": "描述",
-			"views": [
+		"class": "DepictionStackView",
+			  "tabname": "☀️太想当空照，🌻花儿对我笑！",
+			  "views": [
+			    {
+			      "class": "DepictionTableButtonView",
+			      "title": "项目地址",
+			      "action": "https://github.com/ethxnn88/VisibleIsland"
+			  				},
+			    {
+			      "class": "DepictionSeparatorView"
+			  				}, {
+			      "class": "DepictionHeaderView",
+			      "title": "插件简介:",
+			      "useBoldText": true,
+			      "useBottomMargin": false
+			  				},
 				{
 					"class": "DepictionMarkdownView",
 					"markdown": " Lynx2 为整个i0S 系统提供了众多的调整,整个Lynx2用户配置界面选项上感觉穷尽 ios系统方方面面,为iOs提 供了的终极设备自定义。<br/> 支持iOS 14, 15 & 16",
