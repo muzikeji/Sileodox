@@ -56,7 +56,7 @@
 				},
 				{
 					"class": "DepictionTableTextView",
-					"text": "2.4.8",
+					"text": "2.4.10",
 					"title": "最新版本"
 				},
 				{
@@ -77,23 +77,6 @@
 					"class": "DepictionButtonView",
 					"text": "加入TG交流群",
 					"action": "https://t.me/iOSlee"
-				}
-			]
-		},
-		{
-			"class": "DepictionStackView",
-			"tabname": "更新日志",
-			"views": [
-				{
-					"class": "DepictionSubheaderView",
-					"title": "2.4.10",
-					"useBoldText": true,
-					"useBottomMargin": false
-				},
-				{
-					"class": "DepictionMarkdownView",
-					"markdown": "初始版本",
-					"useRawFormat": true
 				}
 			]
 		}
