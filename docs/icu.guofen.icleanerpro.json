@@ -1,0 +1,105 @@
+{
+	"class": "DepictionTabView",
+	"headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
+	"tintColor": "#9370DB",
+	"minVersion": "0.4",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "☀️太想当空照，🌻花儿对我笑！",
+			"views": [
+				{
+					"class": "DepictionTableButtonView",
+					"title": "巨魔应用商城",
+					"action": "https://app.lankus.com"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "插件简介:",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": " 第一个真正的iOS系统清理和管理实用工具iOS，最强的垃圾清理工具，此为官方破解版，全功能破解！有经济能力的，请支持一下大神！",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 6,
+					"itemSize": "{160, 346.4533333333333}",
+					"screenshots": [
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://gitee.com/lishuangfu/img/raw/master/img/icu.guofen.icleanerpro1.JPEG"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://gitee.com/lishuangfu/img/raw/master/img/icu.guofen.icleanerpro2.JPEG"
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "详情",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 8
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Muzi.Lee",
+					"title": "推荐人"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "1.0.2",
+					"title": "最新版本"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "iOS15-16.6.1",
+					"title": "理论支持系统范围"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "2024 年 02 月 29 日",
+					"title": "最后更新日期"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionButtonView",
+					"text": "各种流量卡全国包邮，月租低至9元！",
+					"action": "https://lc.189sd.cn/index?k=NVRlSXRCQ29Eams9",
+					"tintColor": "#F4A460"
+				},
+				{
+					"class": "DepictionButtonView",
+					"text": "加入TG交流群",
+					"action": "https://t.me/iOSlee",
+					"tintColor": "#6495ED"
+				}
+			]
+		}
+	]
+}
