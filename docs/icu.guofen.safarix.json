@@ -1,103 +1,103 @@
 {
-	"class": "DepictionTabView",
-	"headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
-	"tintColor": "#9370DB",
-	"minVersion": "0.4",
-	"tabs": [
-		{
-			"class": "DepictionStackView",
-			"tabname": "☀️太想当空照，🌻花儿对我笑！",
-			"views": [
-				{
-					"class": "DepictionTableButtonView",
-					"title": "巨魔应用商城",
-					"action": "https://app.lankus.com"
+  "class": "DepictionTabView",
+  "headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
+  "tintColor": "#9370DB",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "☀️太想当空照，🌻花儿对我笑！",
+      "views": [
+        {
+          "class": "DepictionTableButtonView",
+          "title": "巨魔应用商城",
+          "action": "https://app.muvip.cn"
 				},
-				{
-					"class": "DepictionSeparatorView"
+        {
+          "class": "DepictionSeparatorView"
 				},
-				{
-					"class": "DepictionHeaderView",
-					"title": "插件简介:",
-					"useBoldText": true,
-					"useBottomMargin": false
+        {
+          "class": "DepictionHeaderView",
+          "title": "插件简介:",
+          "useBoldText": true,
+          "useBottomMargin": false
 				},
-				{
-					"class": "DepictionMarkdownView",
-					"markdown": " Safari Essential Features！<br>此插件为iPhone自带浏览器增强插件，功能非常的多，使用，强烈建议用safri的用户下载！已汉化，剩余小部分时间比较急，但不影响使用！",
-					"useRawFormat": true
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": " Safari Essential Features！<br>此插件为iPhone自带浏览器增强插件，功能非常的多，使用，强烈建议用safri的用户下载！已汉化，剩余小部分时间比较急，但不影响使用！",
+          "useRawFormat": true
 				},
-				{
-					"class": "DepictionScreenshotsView",
-					"itemCornerRadius": 6,
-					"itemSize": "{160, 346.4533333333333}",
-					"screenshots": [
-						{
-							"accessibilityText": "Screenshot",
-							"url": "https://muzikeji.github.io/Sileodox/images/IMG_1589.jpeg"
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 346.4533333333333}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://muzikeji.github.io/Sileodox/images/IMG_1589.jpeg"
 						},
-						{
-							"accessibilityText": "Screenshot",
-							"url": "https://muzikeji.github.io/Sileodox/images/IMG_1588.jpeg"
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://muzikeji.github.io/Sileodox/images/IMG_1588.jpeg"
 						}
 					]
 				},
-				{
-					"class": "DepictionSpacerView",
-					"spacing": 16
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
 				},
-				{
-					"class": "DepictionSeparatorView"
+        {
+          "class": "DepictionSeparatorView"
 				},
-				{
-					"class": "DepictionSpacerView",
-					"spacing": 16
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
 				},
-				{
-					"class": "DepictionHeaderView",
-					"title": "详情",
-					"useBoldText": true,
-					"useBottomMargin": false
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
 				},
-				{
-					"class": "DepictionSpacerView",
-					"spacing": 8
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
 				},
-				{
-					"class": "DepictionTableTextView",
-					"text": "Muzi.Lee",
-					"title": "推荐人"
+        {
+          "class": "DepictionTableTextView",
+          "text": "Muzi.Lee",
+          "title": "推荐人"
 				},
-				{
-					"class": "DepictionTableTextView",
-					"text": "1.0.2",
-					"title": "最新版本"
+        {
+          "class": "DepictionTableTextView",
+          "text": "1.0.2",
+          "title": "最新版本"
 				},
-				{
-					"class": "DepictionTableTextView",
-					"text": "iOS15-16.6.1",
-					"title": "理论支持系统范围"
+        {
+          "class": "DepictionTableTextView",
+          "text": "iOS15-16.6.1",
+          "title": "理论支持系统范围"
 				},
-				{
-					"class": "DepictionTableTextView",
-					"text": "2024 年 02 月 26 日",
-					"title": "最后更新日期"
+        {
+          "class": "DepictionTableTextView",
+          "text": "2024 年 02 月 26 日",
+          "title": "最后更新日期"
 				},
-				{
-					"class": "DepictionSpacerView",
-					"spacing": 16
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
 				},
-				{
-					"class": "DepictionButtonView",
-					"text": "各种流量卡全国包邮，月租低至9元！",
-					"action": "https://lc.189sd.cn/index?k=NVRlSXRCQ29Eams9",
-					"tintColor": "#F4A460"
+        {
+          "class": "DepictionButtonView",
+          "text": "各种流量卡全国包邮，月租低至9元！",
+          "action": "https://lc.189sd.cn/index?k=NVRlSXRCQ29Eams9",
+          "tintColor": "#F4A460"
 				},
-				{
-					"class": "DepictionButtonView",
-					"text": "加入TG交流群",
-					"action": "https://t.me/iOSlee",
-					"tintColor": "#6495ED"
+        {
+          "class": "DepictionButtonView",
+          "text": "加入TG交流群",
+          "action": "https://t.me/iOSlee",
+          "tintColor": "#6495ED"
 				}
 			]
 		}
