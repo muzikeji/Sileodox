@@ -1,0 +1,100 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://muzikeji.github.io/Sileodox/images/top.png",
+  "tintColor": "#9370DB",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "☀️太想当空照，🌻花儿对我笑！",
+      "views": [
+        {
+          "class": "DepictionButtonView",
+          "text": "各种流量卡全国包邮，月租低至9元！",
+          "action": "https://lc.189sd.cn/index?k=NVRlSXRCQ29Eams9",
+          "tintColor": "#F4A460"
+                },
+        {
+          "class": "DepictionButtonView",
+          "text": "加入TG交流群",
+          "action": "https://t.me/iOSlee",
+          "tintColor": "#6495ED"
+                },
+        {
+          "class": "DepictionSeparatorView"
+				},
+        {
+          "class": "DepictionHeaderView",
+          "title": "插件简介:",
+          "useBoldText": true,
+          "useBottomMargin": false
+				},
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": " 感谢M哥汉化！Laetus - 无限键盘自定义Laetus 提供了几乎无限的方式来自定义 iOS 键盘。aetus 包括几种不同类型的主题• 颜色：简单的背景颜色、色调和文本• 图片：从您的照片库中选择一张图片作为背景显示• 图像主题：使用图像构建的主题和针对不同屏幕尺寸的设置。提供完整的键盘主题体验。• HTML 主题：使用 HTML/Javascript/CSS 构建的主题提供交互式甚至动画键盘主题• Widget Themes：使用 Objective-c 构建的主题，提供可由 iOS 开发人员提供的完整主题体验。对使用 Laetus 构建主题感兴趣的人可以在此处查看文档：https://github.com/SparkDev97/LaetusDocumentation",
+          "useRawFormat": true
+				},
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 346.4533333333333}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://gitee.com/lishuangfu/img/raw/master/img/C77CD572-9F73-45EA-B19D-60481498617D_L0_001_origin.IMG_2041.JPG"
+						},
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://gitee.com/lishuangfu/img/raw/master/img/049609D7-DD39-4F5C-8BA6-33EF914932DC_L0_001_origin.IMG_2018.JPG"
+						}
+					]
+				},
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+				},
+        {
+          "class": "DepictionSeparatorView"
+				},
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+				},
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+				},
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+				},
+        {
+          "class": "DepictionTableTextView",
+          "text": "Muzi.Lee",
+          "title": "推荐人"
+				},
+        {
+          "class": "DepictionTableTextView",
+          "text": "3.5.1",
+          "title": "最新版本"
+				},
+        {
+          "class": "DepictionTableTextView",
+          "text": "iOS15-16.6.1",
+          "title": "理论支持系统范围"
+				},
+        {
+          "class": "DepictionTableTextView",
+          "text": "2024 年 03 月 12 日",
+          "title": "最后更新日期"
+				},
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+				}
+			]
+		}
+	]
+}
