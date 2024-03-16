@@ -30,7 +30,7 @@
 				},
         {
           "class": "DepictionMarkdownView",
-          "markdown": " 感谢M哥汉化！Laetus - 无限键盘自定义Laetus<br> 提供了几乎无限的方式来自定义 iOS 键盘。aetus 包括几种不同类型的主题•<br> 颜色：简单的背景颜色、色调和文本•<br> 图片：从您的照片库中选择一张图片作为背景显示•<br> 图像主题：使用图像构建的主题和针对不同屏幕尺寸的设置。提供完整的键盘主题体验。• HTML <br>主题：使用 HTML/Javascript/CSS 构建的主题提供交互式甚至动画键盘主题• <br>Widget Themes：使用 Objective-c 构建的主题，提供可由 iOS 开发人员提供的完整主题体验。对使用 Laetus 构建主题感兴趣的人可以在此处查看文档：https://github.com/SparkDev97/LaetusDocumentation",
+          "markdown": " 一个不错的分屏插件！",
           "useRawFormat": true
 				},
         {
@@ -40,11 +40,11 @@
           "screenshots": [
             {
               "accessibilityText": "Screenshot",
-              "url": "https://gitee.com/lishuangfu/img/raw/master/img/C77CD572-9F73-45EA-B19D-60481498617D_L0_001_origin.IMG_2041.JPG"
+              "url": "https://cos.fler.cn/uploads/F03BA240-278C-478B-A8A4-85BBC2B98886_L0_001_origin.IMG_2585.JPG"
 						},
             {
               "accessibilityText": "Screenshot",
-              "url": "https://gitee.com/lishuangfu/img/raw/master/img/049609D7-DD39-4F5C-8BA6-33EF914932DC_L0_001_origin.IMG_2018.JPG"
+              "url": "https://cos.fler.cn/uploads/954DE5B2-D594-4921-9450-EE2D6D7F124B_L0_001_origin.IMG_2584.JPG"
 						}
 					]
 				},
@@ -76,7 +76,7 @@
 				},
         {
           "class": "DepictionTableTextView",
-          "text": "3.5.1",
+          "text": "0.0.2",
           "title": "最新版本"
 				},
         {
@@ -86,7 +86,7 @@
 				},
         {
           "class": "DepictionTableTextView",
-          "text": "2024 年 03 月 12 日",
+          "text": "2024 年 03 月 16 日",
           "title": "最后更新日期"
 				},
         {
