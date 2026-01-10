@@ -1,0 +1,18 @@
+Package: com.sini.airpodscompanion
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: Ethan Whited
+Installed-Size: 10704
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader
+Filename: debs/com.sini.airpodscompanion_1.5_iphoneos-arm64e.deb
+Size: 20613668
+MD5sum: c8adc23a6f87b30fc73241e2aded450b
+SHA1: 5b5bc82bd7ee83d8576a3c3b5705514765456765
+SHA256: e102cc9f0c4f30bfd61cdaa3ba9c481fa80367ab2bcd4f34b30054525e5bcc4c
+Section: 越狱插件
+Description: 已修复卡屏的问题，来自季伯腾测试
+Author: Ethan Whited
+Icon: https://sini921.github.io/repo/sileodepiction/icon/airpods.png
+Name: AirpodsCompanion(rootless)
+
