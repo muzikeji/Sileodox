@@ -1,0 +1,16 @@
+Origin: 果粉热话
+Label: com.guofen
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm iphoneos-arm64e
+Components: main
+Description: 果粉热话专属iOS越狱插件源，汇聚实用工具与个性化优化插件
+MD5Sum:
+ $(md5sum Packages | awk '{print $1}') $(wc -c < Packages) Packages
+ $(md5sum Packages.bz2 | awk '{print $1}') $(wc -c < Packages.bz2) Packages.bz2
+ $(md5sum Packages.gz | awk '{print $1}') $(wc -c < Packages.gz) Packages.gz
+SHA1:
+ $(sha1sum Packages | awk '{print $1}') $(wc -c < Packages) Packages
+ $(sha1sum Packages.bz2 | awk '{print $1}') $(wc -c < Packages.bz2) Packages.bz2
+ $(sha1sum Packages.gz | awk '{print $1}') $(wc -c < Packages.gz) Packages.gz 
