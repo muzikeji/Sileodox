@@ -1,0 +1,10 @@
+Package: com.muzikeji.autoenteronfaceid
+Name: AutoEnterOnFaceID
+Version: 1.0.0
+Section: Tweaks
+Depends: mobilesubstrate, roothide, preferenceloader
+Architecture: iphoneos-arm64
+Description: 面容解锁后自动进入桌面的插件，支持设置开关
+Maintainer: muzikeji <your.email@example.com>
+  Author: muzikeji
+  Homepage: https://github.com/muzikeji
