@@ -27,9 +27,10 @@ jobs:
           git clone https://github.com/roothide/roothide.git ~/roothide
           echo "ROOTHIDE=$HOME/roothide" >> $GITHUB_ENV
 
-      # 3. 编译 RootHide 插件
+      # 3. 进入插件目录并编译 RootHide 插件
       - name: Build package (RootHide)
         run: |
+          cd deb/AutoEnterOnFaceID
           make clean
           make package FINALPACKAGE=1
 
@@ -38,7 +39,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: DebPackage
-          path: packages/*.deb
+          path: deb/AutoEnterOnFaceID/packages/*.deb
 
       # 5. 克隆你的 Sileo 源仓库（sileodox）
       - name: Clone sileodox repo
@@ -52,7 +53,7 @@ jobs:
       - name: Copy deb to repo
         run: |
           mkdir -p sileodox_repo/debs
-          cp -f packages/*.deb sileodox_repo/debs/
+          cp -f deb/AutoEnterOnFaceID/packages/*.deb sileodox_repo/debs/
 
       # 7. 提交并推送到你的 sileodox 源
       - name: Push to sileodox repo
@@ -61,7 +62,19 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add debs/*.deb
-          git commit -m "Auto-update tweak package (GitHub Actions)"
+          git commit -m "Auto-update AutoEnterOnFaceID package (GitHub Actions)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+
+      # 8. 自动生成 Sileo 源索引（可选，推荐开启）
+      - name: Generate Packages index
+        run: |
+          cd sileodox_repo
+          dpkg-scanpackages debs /dev/null > Packages
+          bzip2 -fks Packages
+          git add Packages Packages.bz2
+          git commit -m "Auto-update Packages index (GitHub Actions)"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
