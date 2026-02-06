@@ -1,0 +1,67 @@
+name: Build RootHide Tweak & Upload to sileodox Repo
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout tweak code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      # 1. 安装 Theos
+      - name: Install Theos
+        run: |
+          git clone --recursive https://github.com/theos/theos.git ~/theos
+          echo "THEOS=$HOME/theos" >> $GITHUB_ENV
+
+      # 2. 安装 RootHide 工具链（关键）
+      - name: Install RootHide SDK
+        run: |
+          git clone https://github.com/roothide/roothide.git ~/roothide
+          echo "ROOTHIDE=$HOME/roothide" >> $GITHUB_ENV
+
+      # 3. 编译 RootHide 插件
+      - name: Build package (RootHide)
+        run: |
+          make clean
+          make package FINALPACKAGE=1
+
+      # 4. 上传 deb 到 Actions 面板（方便手动下载）
+      - name: Upload deb artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: DebPackage
+          path: packages/*.deb
+
+      # 5. 克隆你的 Sileo 源仓库（sileodox）
+      - name: Clone sileodox repo
+        uses: actions/checkout@v4
+        with:
+          repository: muzikeji/sileodox
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
+          path: sileodox_repo
+
+      # 6. 把 deb 复制到源的 debs 目录（没有则自动创建）
+      - name: Copy deb to repo
+        run: |
+          mkdir -p sileodox_repo/debs
+          cp -f packages/*.deb sileodox_repo/debs/
+
+      # 7. 提交并推送到你的 sileodox 源
+      - name: Push to sileodox repo
+        run: |
+          cd sileodox_repo
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add debs/*.deb
+          git commit -m "Auto-update tweak package (GitHub Actions)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
